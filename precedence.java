@@ -8,3 +8,15 @@ public class Main {
        //output 100
     }
 }
+
+
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+        int a=10;
+        int res= a++ + a + ++a + a++;
+        // 10+11+12+12
+        System.out.println(res);
+       //45
+    }
+}  
